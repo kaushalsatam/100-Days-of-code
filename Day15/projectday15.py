@@ -76,7 +76,7 @@ def espresso():
                     "coffee" : 
                     resources["coffee"] - MENU["espresso"]["ingredients"]["coffee"]
                     }
-                    print("Here is your Espresso. Enjoy!")
+                    print("Here is your Espresso ☕️. Enjoy!")
                 elif payment > MENU["espresso"]["cost"]:
                     change = payment - MENU["espresso"]["cost"]
                     money += MENU["espresso"]["cost"]
@@ -89,7 +89,7 @@ def espresso():
                     resources["coffee"] - MENU["espresso"]["ingredients"]["coffee"]
                     }
                     print(f"Here is ${change} in change.")
-                    print("Here is your Espresso. Enjoy!")
+                    print("Here is your Espresso ☕️. Enjoy!")
                 else:
                     print("Sorry that's not enough money. Money refunded.")
             else:
@@ -118,6 +118,8 @@ def latte():
                     "coffee" : 
                     resources["coffee"] - MENU["latte"]["ingredients"]["coffee"]
                     }
+                    print("Here is your Latte ☕️. Enjoy!")
+
                 elif payment > MENU["latte"]["cost"]:
                     change = payment - MENU["latte"]["cost"]
                     money += MENU["latte"]["cost"]
@@ -130,7 +132,7 @@ def latte():
                     resources["coffee"] - MENU["latte"]["ingredients"]["coffee"]
                     }
                     print(f"Here is ${change} in change.")
-                    print("Here is your Latte. Enjoy!")
+                    print("Here is your Latte ☕️. Enjoy!")
                 else:
                     print("Sorry that's not enough money. Money refunded.")
             else:
@@ -159,6 +161,7 @@ def cappuccino():
                     "coffee" : 
                     resources["coffee"] - MENU["cappuccino"]["ingredients"]["coffee"]
                     }
+                    print("Here is your Cappuccino ☕️. Enjoy!")
                 elif payment > MENU["cappuccino"]["cost"]:
                     change = payment - MENU["cappuccino"]["cost"]
                     money += MENU["cappuccino"]["cost"]
@@ -171,7 +174,7 @@ def cappuccino():
                     resources["coffee"] - MENU["cappuccino"]["ingredients"]["coffee"]
                     }
                     print(f"Here is ${change} in change.")
-                    print("Here is your Cappuccino. Enjoy!")
+                    print("Here is your Cappuccino ☕️. Enjoy!")
                 else:
                     print("Sorry that's not enough money. Money refunded.")
             else:
